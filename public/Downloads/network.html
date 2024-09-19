@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #2b2b2b, #000000);
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 20px;
+            overflow: hidden;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 3px solid #ffffff;
+            border-radius: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 40px;
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+            width: 90%;
+            max-width: 600px;
+        }
+        .text {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .text h1 {
+            font-size: 2.8em;
+            margin-bottom: 15px;
+            font-weight: bold;
+            color: #00d8ff;
+            text-shadow: 0 0 15px #00d8ff;
+        }
+        .text p {
+            font-size: 1.3em;
+            color: #e0e0e0;
+            line-height: 1.4;
+        }
+        .download-link {
+            font-size: 1.5em;
+            text-decoration: none;
+            color: #ffffff;
+            background: linear-gradient(to right, #00d8ff, #00bfff);
+            border: none;
+            padding: 15px 30px;
+            border-radius: 8px;
+            transition: background 0.3s, transform 0.3s;
+            text-shadow: 0 0 10px #000;
+            font-weight: bold;
+            margin-top: 20px;
+            display: inline-block;
+        }
+        .download-link:hover {
+            background: linear-gradient(to right, #00bfff, #00d8ff);
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text">
+            <h1>File Download</h1>
+            <p>Maybe you can find something interesting in the file?! But missing a decryption key...</p>
+        </div>
+        <a class="download-link" href="https://drive.google.com/drive/folders/1sk4Q6o_qfUsnn7jsDu6GnBI43K7PV_9-?usp=sharing" target="_blank">Download the File</a>
+    </div>
+</body>
+</html>
